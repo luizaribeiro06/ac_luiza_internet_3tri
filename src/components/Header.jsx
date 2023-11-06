@@ -7,24 +7,29 @@ import Navbar from 'react-bootstrap/Navbar';
 function Header() {
   return (
     <>
-    <div>
-    <div className='top'>
+         
+    <div className="top">
+    
 
       <Navbar>
-        <Container className="container-fluid py-2">
-        <NavLink className="navbar-brand mx-auto fw-bold" to="/"><img src="https://media.discordapp.net/attachments/1004356980669952011/1113058680867401848/image-removebg-preview.png" alt="" width="80px"/></NavLink>
+        
+      <NavLink className="navbar-brand mx-auto fw-bold" to="/"><img src="https://media.discordapp.net/attachments/1004356980669952011/1171090959992377478/Capture-removebg-preview.png?ex=655b6a72&is=6548f572&hm=b742b7cc1c79b05e2c1f70b264fdcee79795182e7693d8e67705de4e2442019e&=" alt="" width="80px"/></NavLink>
+       
+      <Container className="container">
+      <h2>MusicStore</h2>
           <Nav className="me-auto">
             <NavLink className="nav-link" to="/home">Home</NavLink>
-            <NavLink className="nav-link" to="/about">Quem somos</NavLink>
-            <NavLink className="nav-link" to="/products">Produtos</NavLink>
-            <NavLink className="nav-link" to="/contact">Cadastrar produto</NavLink>
-            <NavLink className="nav-link" to="/login">Entrar</NavLink>
+            <NavLink className="nav-link" to="/produtomusica">Cadastrar produto</NavLink>
+            <NavLink className="nav-link" to="/usuario">Entrar</NavLink>
           </Nav>
         </Container>
+          
+         
+
       </Navbar>
             </div>
                     
-        </div>
+            
                 
         </>
     )

@@ -4,8 +4,8 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import About from './components/About'
 import Product from './components/Product'
-import Contact from './components/Contact'
-import Login from './components/Login'
+import ProdutoMusica from './components/ProdutoMusica'
+import Usuario from './components/Usuario'
 import {Switch, Route, Redirect} from 'react-router-dom';
 import ProductDetail from './components/ProductDetail';
 
@@ -20,8 +20,8 @@ function App() {
         <Route exact path="/products" component={Product} />
         <Route exact path="/products/:id" component={ProductDetail} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/produtomusica" component={ProdutoMusica} />
+        <Route exact path="/usuario" component={Usuario} />
 
         <Redirect to="/" />
       </Switch>

@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="fundo">
 
             <div>
-                <p>&#169;2023 - Babies S.A</p>
+                <p>&#169;2023 - MusicStore</p>
             </div>
 
             <div className="imgTotal">
